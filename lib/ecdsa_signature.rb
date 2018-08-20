@@ -5,7 +5,7 @@ require 'securerandom'
 
 module EcdsaSignature
   
-  class Digest
+  class Auth
 
   	def initialize(key)
 		@key = key
