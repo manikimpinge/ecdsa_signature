@@ -22,7 +22,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+  ecdsa = EcdsaSignature::Digest.new key
+  ecdsa.sign(data)
 
 ## Development
 
