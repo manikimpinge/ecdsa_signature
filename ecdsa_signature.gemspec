@@ -13,6 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{A gem to generate an ecdsa signature by an ethereum private key.}
   spec.homepage      = "https://github.com/manikimpinge/ecdsa_signature"
   spec.license       = "MIT"
+  spec.add_development_dependency "rspec", "~> 3.2"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

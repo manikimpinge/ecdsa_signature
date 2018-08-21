@@ -11,7 +11,7 @@ module EcdsaSignature
 		@key = key
 	end
 
-	def sign(data, key = '')
+	def sign(data, key = false)
 		@key ||= key 
 		signature data
 	end
