@@ -23,6 +23,7 @@ Or install it yourself as:
 ## Usage
 
   ecdsa = EcdsaSignature::Auth.new key
+  
   ecdsa.sign(data)
 
 ## Development
